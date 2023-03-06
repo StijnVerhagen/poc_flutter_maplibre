@@ -5,7 +5,7 @@ import 'package:latlng/latlng.dart';
 const kMarker = "https://www.sccpre.cat/png/big/16/164026_map-marker-png.png";
 
 class MapScreen extends StatefulWidget {
-  MapScreen({Key key}) : super(key: key);
+  MapScreen(BuildContext context, {required Key key}) : super(key: key);
 
   _MapScreenState createState() => _MapScreenState();
 }
@@ -64,13 +64,7 @@ class _MapScreenState extends State<MapScreen> {
       ),
       layers: [
         TileLayerOptions(
-          urlTemplate: "https://api.tiles.mapbox.com/v4/"
-              "{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}",
-          additionalOptions: {
-            'accessToken':
-            'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
-            'id': 'mapbox.streets',
-          },
+          urlTemplate: "https://tiles.stadiamaps.com/styles/alidade_smooth.json?api_key=809d7f73-8498-4f6f-992d-e8aefaa4e0a0",
         ),
         PolygonLayerOptions(polygons: _polygons),
         MarkerLayerOptions(markers: _buildMarkers()),
