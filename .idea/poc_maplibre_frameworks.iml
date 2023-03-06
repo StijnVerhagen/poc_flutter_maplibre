@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/drawing_polygon/build" />
+      <excludeFolder url="file://$MODULE_DIR$/drawing_polygon/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/drawing_polygon/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_maplibre/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_maplibre/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_maplibre/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/maplibre_gl_web/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/maplibre_gl_web/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/maplibre_gl_web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/scripts/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/scripts/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/scripts/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/maplibre_gl_platform_interface/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/maplibre_gl_platform_interface/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter-maplibre-gl/maplibre_gl_platform_interface/.pub" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
